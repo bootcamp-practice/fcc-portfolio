@@ -1,0 +1,264 @@
+.navbar-custom {
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  padding-left: 55px;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: "Varela", Arial;
+  font-size: 1.25em;
+  color: #fff;
+  padding-top: 20px;
+}
+/*nav bar header link color */
+.navbar-custom .navbar-brand:hover {
+  color: #00c997;
+  padding-top:20px;
+  outline: none;
+}
+
+h1 {
+  font-family: "Varela", Arial;
+}
+.menu-bars > div {
+  background-color: transparent;
+  text-decoration: none;
+  border: 0px;
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+
+.menu-bars {
+  padding: 10px 30px 5px 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-bars-content {
+    display: none;
+    position: absolute;
+    min-width: 200px; /*width of dropdown menu*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    border: 1px solid #000;
+}
+
+.menu-bars-content a {
+    color: #fff;
+    background-color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    outline: 0;
+}
+
+
+.menu-bars-content a:hover {
+  background-color: black;
+  text-decoration: none;
+  outline: 0;
+}
+
+.menu-bars:hover .menu-bars-content {
+    display: block;
+    right: 0; /* aligns drop down menu to towards the left so its not off page*/
+}
+/*drop down menu colors */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul > li:first-child a:hover{
+   color: #fff;
+   background: #cc00ac;
+}
+
+ul > li:nth-child(2) a:hover{
+   color: #fff;
+   background: #00C997;
+}
+
+ul > li:nth-child(3) a:hover{
+    color: #fff;
+    background: #ff8c65;
+}
+
+ul > li:nth-child(4) a:hover{
+    color: #fff;
+    background: #0170bf;
+}
+
+ul > li:nth-child(5) a:hover{
+    color: #fff;
+    background: #a641c6;
+}
+
+body {
+   position: relative;
+ }
+
+.tint {
+z-index: 1;
+height: 775px;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+background: linear-gradient(to bottom, rgba(238, 0, 121, 0.7) 0%, rgba(93, 43, 118, 0.7) 59%, rgba(0, 201, 151, 0.7) 100%);   
+}
+
+#home {
+  padding-top:50px;
+  height:775px;
+  font-family: Arial, Helvetica;
+  color: #fff; 
+  background-image: url("http://i.imgur.com/sIGD3.jpg");
+  background-size:2200px;
+  background-repeat: no-repeat;
+}
+
+#webdev {
+  font-family: Arial, Helvetica;
+  padding-top:75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height:775px;
+  color: #fff; 
+  background-color: #00C997;
+}
+
+#coding {
+  font-family: Arial, Helvetica;
+  padding-top:75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height:775px;
+  color: #fff; 
+  background-color: #ff8c65;
+}
+
+#graphic-design {
+  font-family: Arial, Helvetica;
+  padding-top: 75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height:775px;
+  color: #fff; 
+  background-color: #0170bf;
+}
+
+#contact {
+  font-family: Arial, Helvetica;
+  padding-top: 75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height:775px;
+  color: #fff; 
+  background-color: #a641c6;
+}
+
+.logo{
+  height: 112px;
+  max-width: 90px;
+}
+
+.logosection{
+  text-align: center;
+  padding-top: 155px;
+}
+
+.header {
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.gallery{
+  font-size: 1.5em;
+  color: #fff;
+  padding-top: 80px;
+}
+
+
+#profile-pic-spacing {
+  padding-top: 80px;
+  text-align: center; 
+}
+
+
+#contact-info{
+  color: #fff;
+  font-size: 1.25em;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/*say howdy button*/
+.button {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 3px;
+}
+
+.button:link, .button:visited { 
+  text-decoration: none;
+  color: #fff;
+  outline: 0;
+}
+
+.button:hover, .button:active {
+  text-decoration: none;
+  background-color: #8942A0;
+  color: #fff;
+  outline: 0;
+}
+
+.social-icons {
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.social-icons:link, .social-icons:visited {
+  text-decoration: none;
+  color: #fff;
+  outline: 0;
+}
+
+.social-icons:hover {
+  text-decoration: none;
+  color: #00c997;
+  outline: 0;
+}
+
+.social-icons:active {
+  text-decoration: none;
+  color: #ff8c65;
+  outline: 0;
+}
+
+.aboutme {
+  color:#fff;
+  padding: 5px 90px;  
+  font-size: 1.25em;
+  text-align: left;
+}
+
+
+.aboutme a, .aboutme a:visited {
+  text-decoration: none;
+  color: #00c997;
+  outline: 0;
+}
+
+.aboutme a:hover, .aboutme a:active {
+  text-decoration: none;
+  color: #ff8c65;
+  outline: 0;
+}
